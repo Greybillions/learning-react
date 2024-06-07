@@ -3,6 +3,7 @@ import FoodList from './assets/FoodList.jsx';
 import MyComponentA from './assets/MyComponentA.jsx';
 import OnChangeDemo from './assets/OnChange/OnChange.jsx';
 import Prop from './assets/Prop/Prop.jsx';
+import Stopwatch from './assets/Stopwatch.jsx';
 import UseState from './assets/UseState/UseState.jsx';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <ColorPicker />
       <FoodList />
       <MyComponentA />
+      <Stopwatch />
     </>
   );
 }

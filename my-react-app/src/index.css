@@ -138,3 +138,53 @@ select {
 
   padding: 10px;
 }
+
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  width: 350px;
+  border: 2px solid grey;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch h1 {
+  font-size: 35px;
+}
+
+.stopwatch .display {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.stopwatch button {
+  margin: 20px 10px;
+}
+
+.start-btn {
+  background: hsl(133, 86%, 40%);
+}
+
+.reset-btn {
+  background: hsl(226, 84%, 40%);
+}
+
+.stop-btn {
+  background: hsl(0, 85%, 45%);
+}
+
+.start-btn:hover {
+  background: hsl(133, 86%, 35%);
+}
+
+.reset-btn:hover {
+  background: hsl(226, 84%, 35%);
+}
+
+.stop-btn:hover {
+  background: hsl(0, 85%, 40%);
+}
