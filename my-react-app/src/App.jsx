@@ -1,5 +1,6 @@
 import ColorPicker from './assets/ColorPicker.jsx';
 import FoodList from './assets/FoodList.jsx';
+import MyComponentA from './assets/MyComponentA.jsx';
 import OnChangeDemo from './assets/OnChange/OnChange.jsx';
 import Prop from './assets/Prop/Prop.jsx';
 import UseState from './assets/UseState/UseState.jsx';
@@ -15,6 +16,7 @@ function App() {
       <OnChangeDemo />
       <ColorPicker />
       <FoodList />
+      <MyComponentA />
     </>
   );
 }
